@@ -365,3 +365,122 @@ a {
 .features-item__3 {
     width: 223px;
 }
+
+/* courses */
+.courses {
+    padding: 65px 0 61.5px 0;
+}
+
+.courses-label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+
+.courses-title {
+    margin: 18px 0;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+.courses-desc {
+    width: 525px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+
+.courses-view {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
+.courses-group {
+    margin-top: 79px;
+    display: grid;
+    column-gap: 47px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.courses-item__img {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+    opacity: 0.75;
+}
+
+.courses-item__info {
+    padding: 18px 25px 29px;
+    position: relative;
+    top: -71px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 325px;
+    margin-left: 17px;
+}
+
+.courses-item__info--title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+.price-block {
+    margin-top: 16px;
+}
+
+.price-block__1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.price-block__2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+.courses-item__info--desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+
+.item__label--block {
+    display: flex;
+    gap: 10px;
+}
+.courses-item__info--label {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+    flex-direction: row;
+}
+
+.courses-item__info--label::before {
+    position: relative;
+    margin-right: 10px;
+    top: -2px;
+    margin-top: 18px;
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #1ebfc1;
+    border-radius: 50%;
+}
