@@ -36,8 +36,15 @@ a {
     opacity: 0.9;
 }
 /* header */
+
 .header {
-    padding: 52px 0 79px 0;
+    padding: 0 0 79px 0;
+    background-color: #ffffff;
+    padding-top: 52px;
+    padding-bottom: 8px;
+    position: sticky;
+    top: -40px;
+    z-index: 1;
 }
 
 .nav-list {
@@ -79,7 +86,7 @@ a {
 
 /* hero */
 .hero {
-    margin-top: 50px;
+    margin-top: 42px;
 }
 
 .hero-label {
