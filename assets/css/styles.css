@@ -484,3 +484,34 @@ a {
     background: #1ebfc1;
     border-radius: 50%;
 }
+
+/* number */
+
+.number {
+    padding: 132.5px 0;
+}
+
+.number-container {
+    width: 862px;
+}
+
+.number-span,
+.number-label {
+    display: block;
+    text-align: center;
+}
+
+.number-span {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+.number-label {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
