@@ -112,6 +112,9 @@ a {
     line-height: 1.78;
     color: #9da6a5;
 }
+.hero-desc__span {
+    display: inline-block;
+}
 
 .hero-cta__block {
     margin-top: 52px;
