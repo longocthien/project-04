@@ -56,11 +56,21 @@ a {
     font-weight: 400;
     font-size: 1.6rem;
     color: #2f3a3b;
-    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-item::before {
+    font-weight: 600;
+    content: attr(title);
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .nav-item:hover {
-    text-shadow: 1px 0 0 currentColor;
+    font-weight: 600;
 }
 
 .login {
